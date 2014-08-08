@@ -318,17 +318,17 @@ body {
 .reveal pre {
 	display: block;
 	position: relative;
-	width: 90%;
-	margin: 15px auto;
+	/*width: 90%;*/
+	margin: 0px auto;
 
 	text-align: left;
-	font-size: 0.55em;
+	font-size: 0.50em;
 	font-family: monospace;
-	line-height: 1.2em;
+	line-height: 1.0em;
 
 	word-wrap: break-word;
 
-	box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 0px rgba(0,0,0,0.3);
 }
 .reveal code {
 	font-family: monospace;

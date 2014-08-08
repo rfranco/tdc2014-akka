@@ -24,9 +24,10 @@ io.sockets.on('connection', function(socket) {
 });
 
 app.configure(function() {
-	[ 'css', 'js', 'images', 'plugin', 'lib' ].forEach(function(dir) {
+	[ 'md', 'css', 'js', 'images', 'plugin', 'lib' ].forEach(function(dir) {
 		app.use('/' + dir, staticDir(opts.baseDir + dir));
 	});
+  app.use(staticDir(opts.baseDir));
 });
 
 app.get("/", function(req, res) {
