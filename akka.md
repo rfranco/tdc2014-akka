@@ -1,7 +1,7 @@
 #ATORES
 ![](images/actor-selfie.gif)
 ##SOBRE O PALCO
-[Ricardo Franco]() - [@rmfranco]()
+[Ricardo Franco](http://github.com/rfranco) - [@rmfranco](http://twitter.com/rmfranco)
 
 
 ```scala
